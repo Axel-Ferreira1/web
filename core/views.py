@@ -10,3 +10,6 @@ def gallery(request):
 
 def contacto(request):
     return render(request,"core/contacto.html")
+
+def comprar(request):
+    return render(request,"core/comprar.html")
